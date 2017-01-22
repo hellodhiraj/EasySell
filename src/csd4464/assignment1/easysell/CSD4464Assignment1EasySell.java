@@ -20,6 +20,22 @@ public class CSD4464Assignment1EasySell {
     }
 
     public static String stringPower(String s, int i) {
-        return s;
-    }
-}
+       String str="";
+       if(s.equals("")) {
+           s="";
+       
+       }
+       if(i<1){
+           s=null;
+       }
+       if(i==1){
+           s="a";
+       }
+       
+       return s;
+               
+           }
+       }
+       
+        
+  
