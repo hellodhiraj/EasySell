@@ -31,7 +31,10 @@ public class CSD4464Assignment1EasySell {
        if(i==1){
            s="a";
        }
-       
+        if(i==2)
+        {
+            s="bobbob";
+        }
        return s;
                
            }
