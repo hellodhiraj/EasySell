@@ -84,4 +84,12 @@ public class CSD4464Assignment1EasySellTest {
       
     
 }
+        public void testStringAndTwoShouldReturnStringDoubled(){
+       System.out.println("stringPower");
+        String s ="";
+        int i = 1;
+        String expResult ="d";
+        String result = CSD4464Assignment1EasySell.stringPower(s, i);
+        assertEquals(expResult, result);
+}
 }
