@@ -63,6 +63,7 @@ public class CSD4464Assignment1EasySellTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
     }
+    @Test
     public void  testLessThanOneShouldReturnNull(){
     System.out.println("stringPower");
         String s = "";
@@ -73,6 +74,7 @@ public class CSD4464Assignment1EasySellTest {
         // TODO review the generated test code and remove the default call to fail.
       
 }
+    @Test
     public void  testStringAndOneShouldReturnString(){
     System.out.println("stringPower");
         String s ="";
@@ -84,11 +86,12 @@ public class CSD4464Assignment1EasySellTest {
       
     
 }
+        @Test
         public void testStringAndTwoShouldReturnStringDoubled(){
        System.out.println("stringPower");
-        String s ="";
-        int i = 1;
-        String expResult ="d";
+        String s ="bob";
+        int i = 2;
+        String expResult ="bobbob";
         String result = CSD4464Assignment1EasySell.stringPower(s, i);
         assertEquals(expResult, result);
 }

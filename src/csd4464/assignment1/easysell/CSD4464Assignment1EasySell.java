@@ -29,12 +29,9 @@ public class CSD4464Assignment1EasySell {
            s=null;
        }
        if(i==1){
-           s="a";
+           s="d";
        }
-       if(i==2)
-       {
-           s="bobbob";
-       }
+       
         if (i > 1) {
             for (int j = 0; j < i; j++) {
 
